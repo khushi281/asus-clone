@@ -1,0 +1,1531 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/********   container   ********/
+
+.container-fluid{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color: #F5F5F5;
+    /* background-color: red; */
+    padding: 0;
+
+
+
+
+}
+
+/*********   first-nav    ********/
+
+.nav-section{
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(185, 184, 184);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    cursor: pointer;
+   
+}
+
+
+
+/********   logo-1   **********/
+
+
+.logo-1{
+    height: 70px;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.first img{
+    height: 40px;
+    width: 30px;
+    transition: all ease-in-out;
+    filter: grayscale(100%);
+}
+
+.logo-1 hr{
+    height:20px;
+    width:1px;
+    border:1px  solid rgb(202, 202, 202);
+    margin-left: 4px;
+}
+/* .first img:hover{
+    color: red;
+} */
+
+.second{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.second img{
+    height: 50px;
+    width: 50px;
+    transition: all ease-in-out;
+    filter: grayscale(100%);
+}
+
+
+.third{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+
+.third img{
+    height: 100px;
+    width: 80px;
+    transition: all ease-in-out;
+    filter: grayscale(100%);
+  
+}
+
+
+
+/********   logo-2   **********/
+
+
+.logo-2{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-2  h3{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(111, 109, 109);
+    padding-top: 10px;
+}
+
+
+
+/********   second-nav   **********/
+
+.navbar-2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    position: sticky;
+    top: 0;
+}
+.menu-icon{
+
+    display: none;
+    
+}
+.img{
+    height: 100%;
+    width: 100px;
+    padding-left: 10px;
+    
+}
+.img img{
+    height: 45px;
+    cursor: pointer;
+}
+
+.ul-2{
+    width: 76%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    position: sticky;
+    top: 0;
+    
+}
+.ul-2 span{
+    display: flex;
+    gap: 20px;
+}
+.ul-2 li:hover{
+    border-bottom: 3px solid black;
+}
+.ul-3{
+   
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    cursor: pointer;
+    padding-top: 25px;
+    padding-left: 30px;
+
+
+    
+}
+.navbar-2 ul{
+    list-style: none;
+}
+
+
+
+/********   blue-nav   **********/
+
+.blue-nav{
+    height: 50px;
+    width: 100%;
+    background-color: #015ec5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue-nav h1{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.blue-nav a{
+    color: white;
+    text-decoration: none;
+}
+.blue-nav a:hover{
+    border-bottom: 2px solid white;
+}
+
+
+/*********    image-section-1    *********/
+
+.image-section-1{
+    height: 600px;
+    width: 100%;
+    background-image: url(https://www.asus.com/WebsitesBanner/IN/banners/bwbozu41tski9mhn/bwbozu41tski9mhn-0_0_desktop_0_2X.jpg?webp);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+/********    image-section-2    *********/
+
+.image-section-2{
+    height: 600px;
+    width: 100%;
+    background-image: url(https://www.asus.com/WebsitesBanner/IN/banners/foxkkzyesji5rjax/foxkkzyesji5rjax-0_0_desktop_2X.jpg?webp);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image-first{
+    display: none;
+   
+}
+.image-2{
+    display: none;
+}
+
+
+
+/*******    grid-container   ********/
+
+.grid-container{
+    height:1220px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/********    grid-section   **********/
+
+.grid-section{
+    height:1200px;
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+
+
+
+
+/********     box-1     ********/
+
+.box-1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-image: url(https://www.asus.com/WebsitesBanner/IN/banners/fvhyvd3jp7yxlasi/fvhyvd3jp7yxlasi-0_0_desktop_0_1X.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box-1 h1{
+    font-size: 45px;
+    font-weight: 100;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 35px;
+
+}
+.box-1 span{
+    font-weight: 800;
+    cursor: pointer;
+
+}
+.box-1 a{
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(111, 111, 111);
+    text-decoration: none;
+    padding-top: 20px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+
+
+
+
+
+
+/********     box-2     ********/
+
+.box-2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background-image: url(https://www.asus.com/WebsitesBanner/IN/banners/fvhyvd3jp7yxlasi/fvhyvd3jp7yxlasi-1_0_desktop_1_1X.jpg?webp);
+    background-position: center;
+    background-size: cover;
+}
+.box-2 h1{
+    font-size: 45px;
+    font-weight: 100;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 35px;
+
+}
+.box-2 span{
+    font-weight: 800;
+    cursor: pointer;
+
+}
+.box-2 a{
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(111, 111, 111);
+    text-decoration: none;
+    padding-top: 20px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+
+
+
+
+
+/********     box-3     ********/
+
+.box-3{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-image: url(https://www.asus.com/WebsitesBanner/IN/banners/fvhyvd3jp7yxlasi/fvhyvd3jp7yxlasi-2_0_desktop_2_1X.jpg?webp);
+    background-position: center;
+    background-size: cover;
+}
+.box-3 h1{
+    font-size: 45px;
+    font-weight: 900;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 28px;
+
+}
+
+.box-3 a{
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(111, 111, 111);
+    text-decoration: none;
+    padding-top: 20px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+
+
+
+
+
+
+/********     box-4     ********/
+
+.box-4{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-image: url(https://www.asus.com/WebsitesBanner/IN/banners/fvhyvd3jp7yxlasi/fvhyvd3jp7yxlasi-3_0_desktop_3_1X.jpg?webp);
+    background-position: center;
+    background-size: cover;
+}
+.box-4 h1{
+    font-size: 45px;
+    font-weight: 900;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 28px;
+
+}
+
+.box-4 a{
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(111, 111, 111);
+    text-decoration: none;
+    padding-top: 20px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.grid{
+    display: none;
+}
+
+
+
+/*******     campaign     *******/
+
+.campaign{
+    height: 460px;
+    width:98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.campaign h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    padding-top: 30px;
+}
+.campaign a{
+    font-size: 19px;
+    font-weight: 500;
+    text-decoration: none;
+    color: blue;
+    padding-top: 10px;
+}
+
+
+
+
+/*******    box-section     ********/
+
+.box-section{
+    height: 320px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+/*******    next-box     *******/
+
+.next-box{
+    height: 320px;
+    width: 400px;
+    background-color:  #f5f5f5;
+    cursor: pointer;
+}
+.next-image{
+    height: 250px;
+    width: 400px;
+}
+
+.next-image img{
+    height: 250px;
+    width:400px;
+}
+.next-box h3{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(111, 104, 104);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.next-image img:hover{
+    transition: all ease-in-out 0.1s;
+    transform: scale(104%);
+}
+
+
+.next-box-2{
+    height: 320px;
+    width: 400px;
+    background-color:  #f5f5f5;
+    cursor: pointer;
+}
+.next-image-2{
+    height: 250px;
+    width: 400px;
+}
+
+.next-image-2 img{
+    height: 250px;
+    width:400px;
+}
+.next-box-2 h3{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(111, 104, 104);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.next-image-2 img:hover{
+    transition: all ease-in-out 0.1s;
+    transform: scale(104%);
+}
+
+
+
+
+/*******    hot-box     *******/
+
+.hot-box{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.hot-box h1{
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+.desktop{
+    height: 100px;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.desktop img{
+    height: 70px;
+    width:180px;
+}
+.desktop li{
+    text-align: center;
+    cursor: pointer;
+}
+.hot-box ul{
+    list-style: none;
+}
+
+
+
+
+/*******    deal    *******/
+
+.deal{
+    height: auto;
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*******    deal-section   *******/
+
+.deal-section{
+    height: 1200px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+/*******    deal-box   *******/
+
+.deal-box{
+    height: 1100px;
+    width: 408px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+/*******   position    ********/
+
+.position{
+    height: 25px;
+    width: 50px;
+    border:1px solid  rgb(218, 72, 0);
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    right: 160px;
+    top: 0px;
+}
+.position h3{
+    font-size: 14px;
+    padding-top: 4px;
+    font-weight: 400;
+    color:rgb(218, 72, 0) ;
+}
+
+
+
+/*******    deal-image   *******/
+
+.deal-image{
+    height: 200px;
+    width: 200px;
+}
+.deal-image img{
+    height: 180px;
+    width: 180px;
+    cursor: pointer;
+}
+
+
+
+/*******    deal-text   *******/
+
+.deal-text{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.deal-text img{
+    height: 35px;
+    width: 80px;
+    margin-top: 10px;
+}
+.deal-text h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    padding-top: 20px;
+}
+.deal-text a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+.deal-text a:hover{
+    border-bottom: 2px solid black;
+}
+
+
+.star{
+    height: 20px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.star img{
+    height: 20px;
+    width: 60px;
+}
+
+
+.horizontal-1{
+    height: 0px;
+    width: 90%;
+    border:1px solid rgb(218, 72, 0);
+    margin-top: 20px;
+}
+
+.deal-text p{
+    padding-top: 10px;
+    font-size: 14px;
+    color: grey;
+}
+
+.deal-text h2{
+    font-size: 26px;
+    padding-top: 5px;
+    color: rgb(218, 72, 0);
+}
+.deal-text h6{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(24, 24, 24);
+    padding-top: 5px;
+}
+.deal-text h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(218, 72, 0);
+    padding-top: 3px;
+}
+
+.horizontal-2{
+    height: 0px;
+    width: 90%;
+    border:1px  solid rgb(218, 72, 0);
+    margin-top: 5px;
+}
+
+.circle{
+    height: 24px;
+    width: 24px;
+    border-radius: 50px;
+   background-color: rgb(70, 69, 69);
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+ul{
+    font-size: 16px;
+    color: #4D4D4D;
+    margin-top: 15px;
+}
+ul li{
+
+    padding: 3px;
+}
+
+.button-section{
+    height: 130px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buy{
+    height: 30px;
+    width: 80%;
+    border: none;
+    background-color: #006ce1;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+.buy:hover{
+    background-color: #053469;
+    color: white;
+    border-bottom:1px  solid white;
+    cursor: pointer;
+}
+
+.learn{
+    height: 30px;
+    width: 80%;
+    border: none;
+    border:2px solid #006ce1;
+    color: #006ce1;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    border-radius: 5px;
+
+}
+.learn:hover{
+    background-color: #006ce1;
+    color:  white;
+    border-bottom:1px solid white;
+    cursor: pointer;
+}
+
+
+
+.deal-box-2{
+    height: 1100px;
+    width: 408px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+/*******    circle-2    *******/
+
+.circle-2{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+   background-color: black;
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+
+/*******    circle-3    *******/
+
+.circle-3{
+    height: 24px;
+    width: 24px;
+    border-radius: 50px;
+   background-color:rgb(109, 107, 107);
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+
+
+
+/*******   last-page    ********/
+
+.last-page{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*******   last-1    ********/
+
+.last-1{
+    height: 100px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.part-1{
+    height: 80px;
+    width:300px ;
+    display: flex;
+}
+
+/*******   image-1    ********/
+
+.image-part{
+    height: 80px;
+    width: 40px;
+    margin-bottom: 20px;
+    
+}
+.image-part img{
+    height: 80px;
+    width: 40px;
+    
+}
+
+
+
+
+/*******   shipping    ********/
+
+.shipping{
+    height: 80px;
+    width: 550px;
+    margin-left: 8px;
+    padding-top: 25px;
+
+}
+.shipping h1{
+    font-size: 17px;
+    font-weight: 600;
+}
+.shipping p{
+    font-size: 13px;
+    color: #666666;
+}
+
+
+
+hr{
+    height: 0px;
+    width: 100%;
+    border: 1px solid rgb(141, 141, 141);
+}
+
+
+
+
+/*********      last-2   *********/
+
+
+.last-2{
+    height:auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+/********     shop    *******/
+
+
+.shop a{
+    
+    font-size: 13px;
+    font-weight: 500;
+    color: #666666;
+    text-decoration: none;
+    
+    
+}
+.shop h1{
+    color:black;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+.shop li{
+    padding-top: 8px;
+}
+
+
+
+
+/********     projector    *******/
+
+.projector{
+    
+    
+    margin-top: 55px;
+    
+
+}
+.projector a {
+    font-size: 13px;
+    font-weight: 500;
+    color: #666666;
+    text-decoration: none;
+
+
+}
+
+.projector li{
+    padding-top: 12px;
+}
+
+
+
+
+
+/********     alot    *******/
+
+
+.alot{
+    
+    margin-top: 60px;
+
+}
+.alot a{
+    font-size: 13px;
+    font-weight: 500;
+    color: #666666;
+    text-decoration: none;
+
+    
+
+}
+
+.alot li{
+    padding-top: 8px;   
+}
+
+
+
+
+/********     learn-1    *******/
+
+
+.learn-1 a{
+    font-size: 13px;
+    font-weight: 500;
+    color: #666666;
+    text-decoration: none;
+
+}
+.learn-1 h1{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 8px;
+
+}
+.learn-1 li{
+    padding-top: 12px;
+}
+
+
+
+
+
+/********     support    *******/
+
+.support a{
+    font-size: 13px;
+    font-weight: 500;
+    color: #666666;
+    text-decoration: none;
+
+}
+.support h1{
+    color:black;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+.support li{
+    padding-top:8px;
+}
+
+
+
+/********     about    *******/
+
+
+.about a{
+    font-size: 13px;
+    font-weight: 500;
+    color: #666666;
+    text-decoration: none;
+
+}
+.about h1{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 8px;
+
+
+}
+.about li{
+    padding-top: 8px;
+}
+ 
+li span{
+    color:black ;
+    font-weight: 600;
+}
+
+.last-2 ul{
+    list-style: none;
+}
+.media-list{
+    display: none;
+}
+
+
+/*******    icon     *******/
+
+.icon{
+    height: 80px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.icon-list {
+    height: 45px;
+    width: 250px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.icon-list li{
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color:#818181 ;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-list li:hover{
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
+
+
+
+/*******    last-3   *******/
+
+.last-3{
+    height: 70px;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/******   first    *******/
+
+.first{
+    height: 70px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.first p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #666666;
+
+}
+.first a{
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.first a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+
+/*******    second    *******/
+
+.second{
+    height: 70px;
+    width: 150px;
+}
+.second h5{
+    font-size: 14px;
+    font-weight: 500;
+    color: #666666;
+
+}
+.second a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #666666;
+    text-decoration: none;
+
+}
+.second a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+@media (max-width:768px) {
+
+    .nav-section{
+        display: none;
+    }
+
+    .ul-2{
+        display: none;       
+    }
+    .navbar-2{
+
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        position: fixed;
+        top: 0;
+    }
+    .menu-icon{
+        width: 50px;
+        display: block;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .ul-3{
+        width: 150px;
+        padding-right: 20px;
+    }
+
+    .img{
+        padding-left: 25px;
+    }
+    
+    .image-section-1{
+        display: none;
+    }
+    .image-first{
+        width: 100%;
+        display: block;
+        height: 400px;
+    }
+    .image-first img{
+        height: 400px;
+        width: 100%;
+    }
+    .image-section-2{
+        display: none;
+    }
+    .image-2{
+        width: 100%;
+        display: block;
+        height: 400px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .image-2 img{
+        height: 400px;
+        width: 100%;
+    }
+    .grid-container{
+        display: none;
+    }
+    .grid{
+        display: block;
+        height: auto;
+        width: 100%;
+        background-color: white;
+
+    }
+    .grid-1{
+        height: 450px;
+        width: 100%;
+        background-image: url(https://www.asus.com/WebsitesBanner/IN/banners/fvhyvd3jp7yxlasi/fvhyvd3jp7yxlasi-0_0_mobile_0_2X.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .grid-1 h1{
+        font-size: 30px;
+        font-weight: 100;
+        cursor: pointer;
+        text-align: center;
+        padding-top: 35px;
+    
+    }
+    .grid-1 span{
+        font-weight: 800;
+        cursor: pointer;
+    
+    }
+    .grid-1 a{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(111, 111, 111);
+        text-decoration: none;
+        padding-top: 20px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    
+    
+    }
+
+    .grid-2{
+        height: 450px;
+        width: 100%;
+        background-image: url(https://www.asus.com/WebsitesBanner/IN/banners/fvhyvd3jp7yxlasi/fvhyvd3jp7yxlasi-1_0_mobile_1_2X.jpg?webp);
+        background-position: center;
+        background-size: cover;
+    }
+    .grid-2 h1{
+        font-size: 30px;
+        font-weight: 100;
+        cursor: pointer;
+        text-align: center;
+        padding-top: 35px;
+    
+    }
+    .grid-2 span{
+        font-weight: 800;
+        cursor: pointer;
+    
+    }
+    .grid-2 a{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(111, 111, 111);
+        text-decoration: none;
+        padding-top: 20px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    
+    
+    }
+    .grid-3{
+        height: 450px;
+        width: 100%;
+        background-image: url(https://www.asus.com/WebsitesBanner/IN/banners/fvhyvd3jp7yxlasi/fvhyvd3jp7yxlasi-2_0_mobile_2_2X.jpg?webp);
+        background-position: center;
+        background-size: cover;
+        margin-top: 15px;
+    }
+    .grid-3 h1{
+        font-size: 30px;
+        font-weight: 100;
+        cursor: pointer;
+        text-align: center;
+        padding-top: 35px;
+
+    
+    }
+    .grid-3 span{
+        font-weight: 800;
+        cursor: pointer;
+    
+    }
+    .grid-3 a{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(111, 111, 111);
+        text-decoration: none;
+        padding-top: 20px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    
+    
+    }
+
+    .grid-4{
+        height: 450px;
+        width: 100%;
+        background-image:url(https://www.asus.com/WebsitesBanner/IN/banners/fvhyvd3jp7yxlasi/fvhyvd3jp7yxlasi-3_0_mobile_3_2X.jpg?webp);
+        background-position: center;
+        background-size: cover;
+        margin-top: 15px;
+    }
+    .grid-4 h1{
+        font-size: 30px;
+        font-weight: 100;
+        cursor: pointer;
+        text-align: center;
+        padding-top: 35px;
+
+    
+    }
+    .grid-4 span{
+        font-weight: 800;
+        cursor: pointer;
+    
+    }
+    .grid-4 a{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(111, 111, 111);
+        text-decoration: none;
+        padding-top: 20px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    
+    
+    }
+    .campaign{
+        width: 100%;
+    }
+    .campaign h1{
+        font-size: 20px;
+
+    }
+    .campaign a{
+        font-size: 17px;
+
+    }
+    .box-section{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .next-box{
+        width: 70%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .next-box h3{
+        font-size: 15px;
+
+    }
+    .next-image{
+        height: 250px;
+        width: 100%;
+    }
+    .next-image img{
+        height: 250px;
+        width: 100%;
+    }
+    .next-box-2{
+        display: none;
+    }
+
+    .hot-box{
+        width: 100%;
+    }
+    .hot-box h1{
+        font-size: 40px;
+    }
+    .desktop{
+        width: 90%;
+        font-size: 15px;
+
+    }
+    .desktop img{
+        width: 60%;
+    }
+    .deal{
+        height: auto;
+        width: 100%;
+    }
+    .deal-section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .deal-box{
+        width: 80%;
+    }
+    .deal-box-2{
+        display: none;
+    }
+    .last-page{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last-1{
+        height: auto;
+        width: 100%;
+        display:flex ;
+        flex-direction: column;
+    }
+    .part-1{
+        width: 100%;
+        padding-left: 30px;
+        
+    }
+    .image-1{
+        width: 100%;
+    }
+    .image-1 img{
+        width: 30px;
+    }
+    .shipping{
+        width: 100%;
+    }
+    .shipping h1{
+        font-size: 15px;
+    }
+    .last-2{
+        display: none;
+    }
+    .media-list{
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .media-list ul{
+        list-style: none;
+    }
+    .accordion-button{
+        background-color: #F5F5F5 !important;
+    }
+
+    .last-3{
+        height: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .first{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .first p{
+        font-size: 14px;
+    }
+    .first h6{
+        font-size: 14px;
+        padding-top: 5px;
+    }
+   
+    
+}
+
+
